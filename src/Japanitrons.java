@@ -12,15 +12,15 @@ public class Japanitrons extends Robot {
 	public void fightRoboZilla() {
 		percentPowerJapanitrons -= 20;
 		System.out.println("poorly translated English:Run!!! Robozilla!");
-		System.out.println(percentPowerJapanitrons);
+		System.out.println(percentPowerJapanitrons + "powerLevel");
 		if (percentPowerJapanitrons <= 0)
 			System.out.println("you are out of power");
 	}
 
 	public void eatRoboSushi() {
 		System.out.println("nom nom nom");
-		System.out.println(percentPowerJapanitrons);
 		percentPowerJapanitrons += 10;
+		System.out.println(percentPowerJapanitrons + "powerLevel");
 	}
 
 }

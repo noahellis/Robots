@@ -14,19 +14,21 @@ public class Ameribots extends Robot {
 		System.out.println("nom nom nom");
 		roboWaist += 20;
 		percentPowerAmeribots += 5;
-		System.out.println(roboWaist);
-		System.out.println(percentPowerAmeribots);
+		System.out.println(roboWaist + "roboWaistSize");
+		System.out.println(percentPowerAmeribots + "powerLevel");
+		if (roboWaist>=200)
+		{System.out.println("Sorry, you are too large to move");
 	}
-
+	}
 	public void move(){
 		System.out.println("ugh...can't someone else do it");
 		roboWaist-=5;
 		percentPowerAmeribots-=10;
-		System.out.println(roboWaist);
-		System.out.println(percentPowerAmeribots);
+		System.out.println(roboWaist + "roboWaistSize");
+		System.out.println(percentPowerAmeribots + "powerLevel");
 		
 		
-		if (roboWaist>=150)
+		if (roboWaist>=300)
 			{System.out.println("Sorry, you are too large to move");
 		
 }
