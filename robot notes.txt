@@ -1,0 +1,30 @@
+String decreasePower;
+
+	{
+			int percentPower;
+
+	String takeStep();
+
+	{
+		percentPower = percentPower -= 10;
+		System.out.println(percentPower);
+		if (percentPower <= 0) {
+			System.out.println("you are out of power.");
+
+		}
+	}
+
+	String rechargeRobot;
+
+	{
+		String recharge;
+		if (percentPower > 100) {
+			percentPower = 100;
+			System.out.println(percentPower);
+		} else {
+			percentPower += 10;
+			System.out.println(percentPower);
+		}
+
+	}
+}}
